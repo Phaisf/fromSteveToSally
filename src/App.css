@@ -1,0 +1,57 @@
+.valentine-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.heart-gif-container {
+  position: absolute;
+  left: 0;
+  top: 30%;
+  transform: translateY(-50%);
+  transform: scaleX(-1);
+}
+
+.heart-gif-container2 {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.yesButton,
+.noButton {
+  border-radius: 10px; /* Adjust the value as needed for the roundness */
+  /* Your existing styles */
+  background-color: #ff5733; /* For example */
+  color: #ffffff;
+  font-family: "Cecil1", sans-serif;
+}
+
+/* Additional styles to customize the hover effect */
+.yesButton:hover,
+.noButton:hover {
+  /* You can adjust these styles as needed */
+  filter: brightness(1.2); /* Example hover effect */
+}
+
+body {
+  background-color: #d1ebf6;
+}
+
+@font-face {
+  font-family: "Cecil1";
+  src: url("./fonts/Cecil1.ttf") format("truetype");
+}
+.valentine-message {
+  font-family: "Cecil1", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.text {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Cecil1", sans-serif;
+}
