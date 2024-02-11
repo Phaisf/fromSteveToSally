@@ -7,6 +7,7 @@ const phrases = [
   "Are you sure??",
   "Really sure?!?",
   "Please 🙏",
+  "SUPER DUPER SURE?!?!",
   "Don't do this to me please",
   "You're gonna make me cry",
   "You're gonna shatter my heart💔 - ;(",
@@ -38,7 +39,7 @@ function App() {
         <>
           <img
             alt="bears kissing"
-            src="https://media1.tenor.com/m/kjmMqPElTAAAAAAC/bubu-dudu-kisses.gif"
+            src="https://media1.tenor.com/m/67rX4iETMNIAAAAC/streicheln-extase.gif"
             style={{ width: "350px", height: "auto" }}
           />
           <div className="heart-gif-container">
@@ -54,7 +55,7 @@ function App() {
             />
           </div>
           <div className="valentine-message">
-            Sammie, will you be my valentine? 💜
+            Sally, will you be my Valentine? 💜
           </div>
           <div>
             <button
